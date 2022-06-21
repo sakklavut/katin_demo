@@ -8,183 +8,534 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/3D.css"> -->
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     
     <link rel="stylesheet" href="OwlCarousel2/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="OwlCarousel2/dist/assets/owl.theme.default.min.css">
-  
+      
+    <!-- <script src="js/autoplay.js"></script> -->
+    <script src="js/but_top.js"></script>
+    <!-- <script src="js/3D.js"></script> -->
     <script src="js/bootstrap.bundle.min.js"></script>    
 </head>
 <body>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xl-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                    <img class="img-fluid" src="images/logo_65_th.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#about_us">ความเป็นมา </span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#activity">ภาพกิจกรรม</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#Document">เอกสารดาวน์โหลด</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#transfer">ส่งหลักฐานการโอนเงินบริจาค
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a  class="nav-link" href="#contact-section">ติดต่อสอบถาม
-                        </a>
-                      </li>
-                  </ul>
-                </div>
-              </nav>
+<section id="menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid logo" src="images/logo_65_th.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link font_menu" href="#about_us">ความเป็นมา </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font_menu" href="#activity">ภาพกิจกรรม</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link font_menu" href="#Document">เอกสารดาวน์โหลด</a>
+                          </li>
+                          <li class="nav-item">
+                              
+                            <a class="nav-link btn btn-danger text_down" data-toggle="modal" data-target="#transfer">ส่งหลักฐานการโอนเงินบริจาค
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a  class="nav-link font_menu" href="#contact-section">ติดต่อสอบถาม
+                            </a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
         </div>
     </div>
-</div>
+</section>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 banner_main" src="images/banner.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 banner_main" src="images/banner.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 banner_main" src="images/banner.png" alt="Second slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
 <section id="about_us">
-    <div class="container">
+    <div class="container fade-in-text">
          <div class="row">
-             <div class="col-xl-12 col-md-12 col-sm-12 col-sm-12 text-center">
-                 <h1>ประวัติความเป็นมา</h1>
+             <div class="col-xl-12 col-md-12 col-sm-12 col-sm-12 text-center p-1">
+              <h1 class="p-2 header">กฐินพระราชทาน</h1>
+              <div class="shadow p-3 mb-2 bg-white rounded box_shadow">  
+                 <p class="content text-white">การทอดกฐินหรือการถวายผ้ากฐินเป็นกาลทานเป็นการถวายทานที่พระพุทธเจ้าทรงบัญญัติ  ไว้ในคัมภีร์พระวินัยปิฎก ชื่อมหาวัคค์ เรื่อง กฐินขันธกะ (หมวดว่าด้วยกฐิน) ว่า
+                    ครั้งหนึ่งมีภิกษุชาวเมืองปาฐา หรือปาวา จำนวน  30 รูป ที่เดินทางมาด้วยหวังจะเข้าเฝ้าพระผู้มีพระภาค  ซึ่งประทับอยู่ ณ พระเชตวัน เมืองสาวัตถี พอถึงเมืองสาเกตุอีก   6 
+                     โยชน์จะถึงเมืองสาวัตถีก็ถึงกาลเข้าพรรษา จึงต้องอยู่จำพรรษา ณ เมืองสาเกตุ ไม่สามารถเดินทางต่อไปได้ ในระหว่างจำพรรษาอยู่นั้นก็มีความกระวนกระวายในการอยากจะเข้าเฝ้าพระผู้มี
+                      พระภาค ครั้นเมื่อออกพรรษา ก็รีบเดินทางไปยังเมืองสาวัตถีเพื่อเข้าเฝ้าพระผู้มีพระภาคทันที ทำให้น้ำหรือโคลนตมเปรอะเปื้อนจีวรในระหว่างเดินทาง เมื่อภิกษุเหล่านั้นได้เข้าเฝ้า
+                    พระพุทธองค์ ทรงปฏิสันถารด้วยภิกษุเหล่านั้น และทรงทราบถึงความลำบากของภิกษุทั้งหลายเหล่านั้น จึงทรงยกเป็นเหตุมีพระพุทธานุญาตให้กรานกฐิน
+                     และโปรดให้เป็นการสงฆ์ คือเป็นสังฆกรรมสำหรับภิกษุทั้งหลายทั่วไป ในระยะเวลาภายหลังวันออกพรรษาแล้วหนึ่งเดือน 
+                     (ตั้งแต่วันแรม 1 ค่ำ เดือน 11 ถึงวันขึ้น 15 ค่ำ เดือน 12)
+               </p>
+              </div>  
              </div>
          </div>
          <div class="row">
-            <div class="col-xl-12 col-md-12 col-sm-12 col-sm-12">
-                <p>การทอดกฐินหรือการถวายผ้ากฐินเป็นกาลทาน เป็นการถวายทานที่พระพุทธเจ้าทรงบัญญัติ ไว้ในคัมภีร์พระวินัยปิฎก ชื่อมหาวัคค์ เรื่อง กฐินขันธกะ (หมวดว่าด้วยกฐิน) ว่า ครั้งหนึ่งมีภิกษุชาวเมืองปาฐา หรือปาวา จำนวน ๓๐ รูป ที่เดินทางมาด้วยหวังจะเข้าเฝ้าพระผู้มีพระภาค ซึ่งประทับอยู่ ณ พระเชตวัน เมืองสาวัตถี พอถึงเมืองสาเกตุอีก ๖ โยชน์จะถึงเมืองสาวัตถีก็ถึงกาลเข้าพรรษา จึงต้องอยู่จำพรรษา ณ เมืองสาเกตุ ไม่สามารถเดินทางต่อไปได้ ในระหว่างจำพรรษาอยู่นั้นก็มีความกระวนกระวายในการอยากจะเข้าเฝ้าพระผู้มี พระภาค ครั้นเมื่อออกพรรษา ก็รีบเดินทางไปยังเมืองสาวัตถีเพื่อเข้าเฝ้าพระผู้มีพระภาคทันที ทำให้น้ำหรือโคลนตมเปรอะเปื้อนจีวรในระหว่างเดินทาง เมื่อภิกษุเหล่านั้นได้เข้าเฝ้า พระพุทธองค์ ทรงปฏิสันถารด้วยภิกษุเหล่านั้น และทรงทราบถึงความลำบากของภิกษุทั้งหลายเหล่านั้น จึงทรงยกเป็นเหตุมีพระพุทธานุญาตให้กรานกฐิน และโปรดให้เป็นการสงฆ์ 
-                    คือเป็นสังฆกรรมสำหรับภิกษุทั้งหลายทั่วไป ในระยะเวลาภายหลังวันออกพรรษาแล้วหนึ่งเดือน (ตั้งแต่วันแรม ๑ ค่ำ เดือน ๑๑ ถึงวันขึ้น ๑๕ ค่ำ เดือน ๑๒)</p>    
-                <p><b>ผ้ากฐิน</b> ผ้าที่จะทำเป็นผ้ากฐินได้นั้น เป็นผ้าใหม่ก็ได้, ผ้าเทียมใหม่ก็ได้, ผ้าเก่าหรือผ้าบังสุกุลก็ได้ แต่ผ้าเหล่านี้จะต้องมีพอที่จะทำไตรจีวรผืนใดผืนใดผืนหนึ่ง (ผ้าไตรจีวร
-                     ของพระสงฆ์มี ๓ ผืน คือ สบง = ผ้านุ่ง, จีวร = ผ้าห่ม, และสังฆาฏิ = ผ้าซ้อนห่ม หรือผ้าพาด) ผ้านี้คือผ้าองค์กฐิน ส่วนสิ่งของอื่นๆ ไม่ใช่องค์กฐิน แต่เป็นบริวารกฐิน บริวารกฐินนี้จะมีมากหรือน้อยก็ได้ไม่มีกำหนด แล้วแต่ตามศรัทธาของผู้ถวาย</p>
-                     <p><b>กฐิน</b>  ตามอรรถกถาฎีกาต่างๆ กล่าวไว้มี ๒ ลักษณะ คือ
-                    <ol>
-                        <li>จุลกฐิน เป็นกิจกรรมสำคัญที่ทุกฝ่ายจะต้องช่วยกันทำให้แล้วเสร็จภายในกำหนดวันหนึ่ง นับตั้งแต่การเก็บฝ้าย ปั่นฝ้าย กรอ ทอ ตัด เย็บ ย้อม 
-                            ทำให้เป็นขันฑ์ ได้ขนาดตามวินัย แล้วทอดถวายให้แล้วเสร็จในวันนั้น</li>
-                            <li>
-                                มหากฐิน เป็นการจัดหาผ้ามาเป็นองค์กฐิน พร้อมทั้งเครื่องไทยธรรม บริวารเครื่องกฐินจำนวนมาก ไม่ต้องทำโดยรีบด่วน เพื่อจะได้มีส่วนหาทุนในการบำรุงวัด เช่น การบูรณะซ่อมแซมศาสนสถานภายในวัด
-                            </li>
-                    </ol>
-                    </p>
+            <div class="col-xl-6 col-md-6 col-sm-6 col-sm-6 ">
+              <div class="shadow p-3  bg-white rounded box_shadow">
+                  <p class="text-white"> <span class="header_sub"> ผ้ากฐิน </span> ผ้าที่จะทำเป็นผ้ากฐินได้นั้น เป็นผ้าใหม่ก็ได้, ผ้าเทียมใหม่ก็ได้, ผ้าเก่าหรือผ้าบังสุกุลก็ได้ แต่ผ้าเหล่านี้จะต้องมีพอที่จะทำไตรจีวรผืนใดผืนใดผืนหนึ่ง 
+                    <br> (ผ้าไตรจีวร ของพระสงฆ์มี  3 ผืน คือ สบง = ผ้านุ่ง,   จีวร =  ผ้าห่ม, และสังฆาฏิ  =  ผ้าซ้อนห่ม  หรือผ้าพาด) 
+                    ผ้านี้คือผ้าองค์กฐิน ส่วนสิ่งของอื่นๆ ไม่ใช่องค์กฐิน แต่เป็นบริวารกฐิน บริวารกฐินนี้จะมีมากหรือน้อยก็ได้ไม่มีกำหนด แล้วแต่ตามศรัทธาของผู้ถวาย</p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-6 col-sm-6 ">
+              <div class="shadow p-3 bg-white rounded box_shadow">
+               <p class="mb-1 text-white"> <span class="header_sub">กฐิน </span>  ตามอรรถกถาฎีกาต่างๆ กล่าวไว้มี 2 ลักษณะ คือ 
+                <ol>
+                    <li class="text-white">จุลกฐิน เป็นกิจกรรมสำคัญที่ทุกฝ่ายจะต้องช่วยกันทำให้แล้วเสร็จภายในกำหนดวันหนึ่ง นับตั้งแต่การเก็บฝ้าย ปั่นฝ้าย กรอ ทอ ตัด เย็บ ย้อม ทำให้เป็นขันฑ์ ได้ขนาดตามวินัย แล้วทอดถวายให้แล้วเสร็จในวันนั้น</li>
+                    <li class="text-white">มหากฐิน เป็นการจัดหาผ้ามาเป็นองค์กฐิน พร้อมทั้งเครื่องไทยธรรม บริวารเครื่องกฐินจำนวนมาก ไม่ต้องทำโดยรีบด่วน เพื่อจะได้มีส่วนหาทุนในการบำรุงวัด เช่น การบูรณะซ่อมแซมศาสนสถานภายในวัด</li>
+                </ol>
+              </p>
+              </div>
             </div>
         </div>
-    </div>
 </section>
-<section id="activity">
-    <div class="container">
-         <div class="row">
-             <div class="col-xl-12 col-md-12 col-sm-12 col-sm-12">
-                 <h1>ภาพกิจกรรม</h1>
-                 
-             </div>
-         </div>
+<section id="about_us_1">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-md-12 col-sm-12 col-sm-12 text-center">
+        <h1 class="p-2 header">ลักษณะของกฐินในปัจจุบัน</h1>
+      </div>
     </div>
-</section>
-<section id="transfer">
-    <div class="container">
-         <div class="row">
-             <div class="col-xl-12 col-md-12 col-sm-12 col-sm-12">
-                 <h1>ส่งหลักฐานการโอนเงินบริจาค</h1>
-             </div>
-         </div>
+    <div class="row">
+      <div class="col-xl-12 col-md-12 col-sm-12 text-center p-1">
+        <div class="shadow p-3  bg-white rounded box_shadow"> 
+          <p class="text-white">
+            <span class="header_sub"> 1.  พระกฐินหลวง </span> เป็นพระราชกรณียกิจของพระมหากษัตริย์ผู้ทรงเป็น พุทธมามกะและเอกอัครพุทธศาสนูปถัมภก เสด็จพระราชดำเนินถวายผ้าพระกฐินด้วยพระองค์เอง  <br>หรือทรงพระกรุณาโปรดเกล้า ฯ ให้สมเด็จพระราชินี พระราชโอรส  พระราชธิดา เสด็จพระราชดำเนินทรงปฏิบัติพระราชกรณียกิจแทนพระองค์  รวมทั้งพระกฐินที่ทรงพระกรุณาโปรดเกล้าฯ 
+            ให้พระบรมวงศานุวงศ์ ราชสกุล องคมนตรี 
+                        หรือผู้ที่ทรงพระราชดำริเห็นสมควรให้เสด็จฯ แทนพระองค์นำไปถวายยังพระอารามหลวงสำคัญ 16 พระอาราม <br>
+                         ที่สงวนไว้ไม่ให้มีการขอพระราชทาน </p>
+        </div>   
+      </div>
     </div>
-</section>
-<section id="contact-section">
-   <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-md-12 col-sm-12 col-12 p-1">
+        <div class="shadow p-3 bg-white rounded box_shadow text-white">กรุงเทพมหานคร จำนวน 12 พระอาราม </div>
+      </div>
+  </div>
+    <div class="row">
+      <div class="col-xl-4 col-md-4 col-sm-12 co-12 p-1">
+        <div class="card">
+          <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+          <div class="card-body text-center box_card">
+            <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-4 col-sm-12 co-12 p-1">
+        <div class="card">
+          <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+          <div class="card-body text-center box_card">
+            <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-4 col-sm-12 co-12 p-1">
+        <div class="card">
+          <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+          <div class="card-body text-center box_card">
+            <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-md-4 col-sm-12 co-12 p-1">
+        <div class="card">
+          <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+          <div class="card-body text-center box_card">
+            <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-4 col-sm-12 co-12 p-1">
+        <div class="card">
+          <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+          <div class="card-body text-center box_card">
+            <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-4 col-sm-12 co-12 p-1">
+        <div class="card">
+          <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+          <div class="card-body text-center box_card">
+            <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-md-4 col-sm-12 co-12 p-1">
+        <div class="card">
+          <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+          <div class="card-body text-center box_card">
+            <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-4 col-sm-12 co-12 p-1">
+        <div class="card">
+          <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+          <div class="card-body text-center box_card">
+            <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-4 col-sm-12 co-12 p-1">
+        <div class="card">
+          <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+          <div class="card-body text-center box_card">
+            <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-4 col-md-4 col-sm-12 col-12">
         <div class="row">
-            <div class="col-xl-12 col-md-12 col-sm-12 col-sm-12 text-center">
-                <h1>ติดต่อเรา</h1>
-                <p>สำนักงานพัฒนาเทคโนโลยีอวกาศและภูมิสารสนเทศ (องค์การมหาชน) สำนักงานใหญ่ (ศูนย์ราชการเฉลิมพระเกียรติ 80 พรรษา 5 ธันวาคม 2550) 
-                    เลขที่ 120 อาคารรวมหน่วยราชการ (อาคารรัฐประศาสนภักดี) ชั้น 6 และชั้น 7 ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพฯ 10210</p>
+            <div class="col-xl-12 col-md-12 col-sm-12 col-12 p-1">
+              <div class="shadow p-3 bg-white rounded box_shadow text-white"> จังหวัดนครปฐม จำนวน 1 พระอาราม </div>
             </div>
         </div>
+          <!-- <h5 class="text_sub_1">จังหวัดนครปฐม จำนวน 1 พระอาราม</h5> -->
+          <div class="row">
+              <div class="col-xl-12 col-md-12 col-sm-12 col-12 p-1">
+                <div class="card">
+                  <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+                  <div class="card-body text-center box_card">
+                    <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-xl-8 col-md-6 col-sm-12 col-12">
         <div class="row">
-            <div class="col-xl-3">
-                <div class="alert alert-secondary" role="alert">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-map-marker"></span>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-12 text-center">
-                            <p>Address</p>
-                            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-                        </div>
-                    </div>
+          <div class="col-xl-12 col-md-12 col-sm-12 col-12 p-1">
+            <div class="shadow p-3 bg-white rounded box_shadow text-white"> จังหวัดพระนครศรีอยุธยา จำนวน 2 พระอาราม </div>
+          </div>
+      </div>
+        <!-- <h5 class="text_sub_1"></h5> -->
+        <div class="row">
+          <div class="col-xl-6 col-md-6 col-sm-12 col-12 p-1">
+            <div class="card">
+              <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+              <div class="card-body text-center box_card">
+                <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-12 col-12 p-1">
+            <div class="card">
+              <img src="images/01.jpg" class="card-img-top" alt="วัดพระเชตุพนวิมลมังคลาราม">
+              <div class="card-body text-center box_card">
+                <h5 class="card-title">วัดพระเชตุพนวิมลมังคลาราม</h5>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-1">
+    <div class="col-xl-8 col-md-8 col-sm-6 col-sm-6 p-1">
+      <div class="shadow p-3 bg-white rounded box_shadow">
+          <p  class="text-white"> <span class="header_sub">2. พระกฐินพระราชทาน คือ </span> 
+            พระกฐินที่ถือว่า ผ้าพระกฐิน บริขาร และบริวารกฐิน เป็นของหลวง  แต่เปิดโอกาสให้ส่วนราชการ องค์กร  หรือบุคคลที่สมควร   ขอรับพระราชทานอัญเชิญไปถวายยังพระอารามหลวงต่างๆ นอกจากพระอารามหลวงสำคัญ  16  พระอารามดังกล่าว รัฐบาลโดยกรมการศาสนาจัดหาผ้าพระกฐิน และบริวารพระกฐิน (ปัจจุบันมีจำนวน 265 พระอาราม มีรายชื่อตามบัญชีพระอารามหลวง) ซึ่งส่วนราชการ รัฐวิสาหกิจ สมาคม บริษัทห้างร้าน และบุคคลทั่วไป จะต้องยื่นความจำนงขอพระราชทานผ่านไปยังกรมการศาสนา กระทรวงวัฒนธรรม และเมื่อถึงกำหนดกฐินกาลก็ติดต่อขอรับ ผ้าพระกฐินและบริวารพระกฐินจาก กองศาสนูปถัมภ์ กรมการศาสนา  เพื่อนำไปทอดณ พระอารามที่ขอรับพระราชทานไว้ เมื่อทอดถวายเรียบร้อยแล้วผู้ขอรับพระราชทานจะต้องจัดทำบัญชีรายงานถวายพระราชกุศลในการถวายผ้าพระกฐินพระราชทาน  ส่งไปยัง กรมการศาสนา  เพื่อจะได้จัดทำบัญชีรายชื่อผู้ขอรับพระราชทานผ้าพระกฐิน ส่งไปยัง สำนักเลขาธิการนายกรัฐมนตรี เพื่อแจ้งให้สำนักราชเลขาธิการนำความกราบบังคมทูล พระกรุณาทราบฝ่าละอองธุลีพระบาท เพื่อถวายพระราชกุศลในการที่หน่วยงาน องค์กร หรือบุคคลทั่วไป อัญเชิญผ้าพระกฐินไปถวาย  ณ  อารามนั้น 
+          </p>
+      </div>
+    </div>
+    <div class="col-xl-4 col-md-4 col-sm-6 col-sm-6 p-1">
+      <div class="shadow p-3 bg-white rounded box_shadow">
+          <p  class="text-white"> <span class="header_sub">3. กฐินทั่วไป  หรือที่เรียกว่า “กฐินราษฎร์”  </span>
+            เป็นการถวายผ้ากฐินที่พุทธศาสนิกชนทั่วไป มีความประสงค์จะนำไปถวายแด่พระสงฆ์ที่จำพรรษาถ้วนไตรมาส ณ วัดใดวัดหนึ่งที่เป็นวัดราษฎร์ (ไม่ใช่พระอารามหลวง) ซึ่งผู้ที่มีความประสงค์จะทำบุญทอดกฐิน ณ 
+             วัดใดวัดหนึ่ง (ถ้าพระบาทสมเด็จพระเจ้าอยู่หัว เสด็จฯ ถวายผ้าพระกฐิน แด่พระสงฆ์ ที่จำพรรษาถ้วนไตรมาส ในวัดราษฎร์ เรียกว่า “พระกฐินต้น”)  
+          </p>
+      </div>
+    </div>
+  </div>
+  </div> 
+</section>
+<section  id="activity_bg">
+  <section id="activity">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-md-12 col-sm-12 col-12 text-center">
+          <h1 class="p-2 header">ภาพกิจกรรม</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12 col-md-12 col-sm-12 ">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="images/cover_1.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="images/cover_2.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="images/cover_3.jpg" alt="">
+            </div>
+            <div class="item">
+              <img src="images/cover_4.jpg" alt="">
+            </div>
+      </div>
+    </div>
+  </section>
+  <section id="Document">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-md-12 col-sm-12 col-12 text-center">
+            <h1 class="p-2 header">เอกสารดาวน์โหลด</h1>
+          </div>
+        </div>
+           <div class="row">
+              <div class="col-xl-12 col-md-12 col-sm-12 col-sm-12">
+                  <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">ชื่อเอกสาร</th>
+                          <th scope="col">ดาวน์โหลด</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>[update 2-11-2564]-บัญชีการขอรับพระราชทานผ้าพระกฐิน ๒๕๖๔</td>
+                          <td>
+                              <i class="fas fa-file-download"></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>[update 2-11-2564]-บัญชีการขอรับพระราชทานผ้าพระกฐิน ๒๕๖๔</td>
+                          <td>
+                              <i class="fas fa-file-download"></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>[update 2-11-2564]-บัญชีการขอรับพระราชทานผ้าพระกฐิน ๒๕๖๔</td>
+                          <td>
+                              <i class="fas fa-file-download"></i>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="contact-section">
+    <div class="container">
+         <div class="row">
+          <div class="col-xl-12 col-md-12 col-sm-12 col-12 text-center">
+            <h1 class="p-2 header">ติดต่อเรา</h1>
+          </div>
+         </div>
+         <div class="row">
+             <div class="col-xl-4">
+                 <div class="alert alert-secondary box_contact" role="alert">
+                     <div class="row">
+                         <div class="col-xl-12 col-md-12 col-sm-10 col-md-12 text-center">
+                             <i class="fas fa-map-marked-alt"></i>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-xl-12 text-center">
+                             <p class="text-white">
+                                 สำนักงานพัฒนาเทคโนโลยีอวกาศและภูมิสารสนเทศ (องค์การมหาชน) สำนักงานใหญ่ (ศูนย์ราชการเฉลิมพระเกียรติ 80 พรรษา 5 ธันวาคม 2550) 
+                                 
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-xl-4">
+                 <div class="alert alert-secondary box_contact" role="alert">
+                     <div class="row">
+                         <div class="col-xl-12 col-md-12 col-sm-10 col-md-12 text-center">
+                             <i class="fas fa-headset"></i>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-xl-12 text-center">
+                             <p class="text-white">
+                                 0 2141 4444 , 0 2141 4674
+                             </p>
+                         </div>
+                     </div>
+                   </div>
+             </div>
+             <div class="col-xl-4">
+                 <div class="alert alert-secondary box_contact" role="alert">
+                     <div class="row">
+                         <div class="col-xl-12 col-md-12 col-sm-10 col-md-12 text-center">
+                             <i class="fas fa-envelope"></i>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-xl-12 text-center">
+                             <p class="text-white">
+                                 INFO@GISTDA.OR.TH
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+ </section>
+</section>
+
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-md-12 col-sm-12 col-md-12">
+                <div class="text-center  p-3">
+                    © 2020 Copyright: สำนักงานพัฒนาเทคโนโลยีอวกาศและภูมิสารสนเทศ (องค์การมหาชน)
                 </div>
             </div>
-            <div class="col-xl-3">
-                <div class="alert alert-secondary" role="alert">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-map-marker"></span>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-12 text-center">
-                            <p>Call Center</p>
-                            <p>0 2141 4444 , 0 2141 4674</p>
-                        </div>
+        </div>
+    </div>
+</section>
+
+<!-- Back to top button -->
+<button type="button" class="btn btn-primary toTop">Primary</button>
+
+   <!-- Modal ส่งหลักฐานการโอนเงินบริจาค -->
+   <div class="modal fade" id="transfer" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg " role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">ส่งหลักฐานการโอนเงินบริจาค</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group row text-center">
+                  <label for="inputName" class="col-sm-2 col-form-label">ชื่อ-นามสกุล</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputName">
+                  </div>
+                </div>
+                <div class="form-group row text-center">
+                    <label for="inputAgency" class="col-sm-2 col-form-label">หน่วยงาน</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputAgency">
                     </div>
                   </div>
-            </div>
-            <div class="col-xl-3">
-                <div class="alert alert-secondary" role="alert">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-map-marker"></span>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-12 text-center">
-                            <p>อีเมล</p>
-                            <p>INFO@GISTDA.OR.TH</p>
-                        </div>
+                  <div class="form-group row text-center">
+                    <label for="inputPhone" class="col-sm-2 col-form-label">เบอร์โทรศัพท์</label>
+                    <div class="col-sm-10">
+                      <input  type="text" class="form-control" id="inputPhone" minlength="10" maxlength="16">
                     </div>
                   </div>
-            </div>
-            <div class="col-xl-3">
-                <div class="alert alert-secondary" role="alert">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="fa fa-map-marker"></span>
+                  <div class="form-group row text-center">
+                    <label for="inputAddress" class="col-sm-2 col-form-label">ที่อยู่ (เพื่อจัดส่งใบอนุโมทนา)</label>
+                    <div class="col-sm-10">
+                      <textarea class="form-control" id="3" rows="3"></textarea>
                     </div>
-                    <div class="row">
-                        <div class="col-xl-12 text-center">
-                            <p>สื่อมีเดีย</p>
-                            <div class="row">
-                                <div class="col-xl-4">
-                                    <span>TWITIER</span>
-                                </div>
-                                <div class="col-xl-4">
-                                    <span>TWITIER</span>
-                                </div>
-                                <div class="col-xl-4">
-                                    <span>TWITIER</span>
-                                </div>
-                                <div class="col-xl-4">
-                                    <span>TWITIER</span>
+                  </div>
+                  <div class="form-group row text-center">
+                    <label for="inputMoney" class="col-sm-2 col-form-label">จำนวนเงิน</label>
+                    <div class="col-sm-10">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control col-12" id="inputMoney" >
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">บาท</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                   </div>
-            </div>
+                  <div class="form-group row text-center">
+                    <label for="inputTime" class="col-sm-2 col-form-label">เวลาที่โอน</label>
+                    <div class="col-sm-10">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control col-12" id="inputTime" >
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="form-group row text-center">
+                    <label for="inputTime" class="col-sm-2 col-form-label">อัพโหลดหลักฐานการโอน</label>
+                    <div class="col-sm-6">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                            <label class="custom-file-label" for="validatedCustomFile">อัพโหลดรูปภาพ</label>
+                            <div class="invalid-feedback">Example invalid custom file feedback</div>
+                          </div>
+                    </div>
+                  </div>
+            </form>
         </div>
-   </div>
-</section>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">ยกเลิก</button>
+          <button type="button" class="btn btn-success">ส่งข้อมูล</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-
-
-
-    
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="OwlCarousel2/dist/owl.carousel.min.js"></script>
+    <script>
+          var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                items:4,
+                loop:true,
+                margin:10,
+                autoplay:true,
+                autoplayTimeout:1000,
+                autoplayHoverPause:true
+            });
+            $('.play').on('click',function(){
+                owl.trigger('play.owl.autoplay',[1000])
+            })
+            $('.stop').on('click',function(){
+                owl.trigger('stop.owl.autoplay')
+            })
+    </script>
     </body>
     </html>

@@ -15,23 +15,112 @@ body
     -ms-border-radius: 50%;
     border-radius: 50%;
 }
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
+.img_main{
+  height: 250px;
+}
+.fa-file-download{
+  font-size: 40px;
+  color: #143961 !important;
+}
+.fa-map-marked-alt{
+  font-size: 5em;
+  padding: 5px;
+  color: #FFF !important;
+}
+.fa-headset{
+  font-size: 5em;
+  padding: 5px;
+  color: #FFF !important;
+}
+.fa-envelope{
+  font-size: 5em;
+  padding: 5px;
+  color: #FFF !important;
+}
+#footer{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#menu{
+  background-color:  #ffc911 !important;  
+}
+.bg_menu{
   
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+}
+#about_us{
+  /* background-color: #ffd649; */
+  background-image: url("../images/bg_2.jpg");
+	width: 100%;
+	height: auto;
+}
+#about_us_1{
+  background-image: url("../images/bg_3.jpg");
+	width: 100%;
+	height: auto;
+}
+#activity_bg{
+  background-image: url("../images/bg_4.jpg");
+	width: 100%;
+	height: auto;
+}
+.banner_main{
+  /* height: 750px !important; */
+}
+.fade-in-text{
+  animation: fadeIn 3s;
+}
+.logo{
+  height: 65px;
+}
+.header{
+    color: #143961;
+    font-size: 75px;
+}
+.header_sub{
+  color: #ffcb50 !important;
+  font-size: 20px;
+}
+.header_sub_1{
+  font-size: 16px;
+  color: #143961 !important;
+}
+.text_sub{
+  color: #ffcb50 !important;
+}
+ul li .font_menu{
+  font-size: 20px;
+  color: #143961 !important;
+}
+.box_card{
+  background: linear-gradient( 90deg , rgba(3,58,95,1) 9%, rgba(0,112,192,1) 82%) !important;
+  color: #fff;
+}
+.box_shadow{
+  height:auto;
+  background: linear-gradient( 90deg , rgba(3,58,95,1) 9%, rgba(0,112,192,1) 82%) !important;
+}
+.text_down{
+  color:#FFF !important;
+}
+.content{
+  color: #5d5d5d;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+#footer{
+  background-color: #ffc911 !important;
+  color: #143961 !important;
+}
+.toTop{
+  position: fixed;
+  bottom: 15px;
+  right: 50px;
+  transition: 0.5s;
+  transform: translateY(100px);
+}
+.box_contact{
+  height: 90% !important;
+  background: linear-gradient( 90deg , rgba(3,58,95,1) 9%, rgba(0,112,192,1) 82%) !important;
+}
+
