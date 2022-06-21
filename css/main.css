@@ -43,9 +43,7 @@ body
 #menu{
   background-color:  #ffc911 !important;  
 }
-.bg_menu{
-  
-}
+
 #about_us{
   /* background-color: #ffd649; */
   background-image: url("../images/bg_2.jpg");
@@ -61,9 +59,6 @@ body
   background-image: url("../images/bg_4.jpg");
 	width: 100%;
 	height: auto;
-}
-.banner_main{
-  /* height: 750px !important; */
 }
 .fade-in-text{
   animation: fadeIn 3s;
